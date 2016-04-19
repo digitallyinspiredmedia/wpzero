@@ -4,7 +4,7 @@ Theme URI: http://sikavinraj.me
 Author: Kavinraj
 Author URI: http://sikavinraj.me
 Description: A post modern, simple, responsive theme designed for dtnext.in
-Version: 1.0
+Version: 1.1
 GitHub Theme URI: https://github.com/sikavinraj/wpzero
 GitHub Branch:    master
 License: GNU General Public License v2 or later
@@ -857,4 +857,9 @@ footer a:hover,
 footer a:focus{
   color: #fff;
   text-decoration: underline;
+}
+/* test */
+section,
+article{
+ display: none;
 }
