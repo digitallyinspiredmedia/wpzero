@@ -81,16 +81,6 @@ function base_scripts() {
 add_action( 'wp_enqueue_scripts', 'base_scripts' );
 
 
-/** START - ADD LESS TO WORDPRESS - http://eckstein.id.au  **/
-add_action( 'wp_head' , 'itsb_lesscss' );
-function itsb_lesscss() {
-?>
-     <link rel="stylesheet/less" type="text/css" href="<?php echo bloginfo('url'); ?>/wp-content/themes/dtnext/css/style.less">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.0/less-1.3.0.min.js" type="text/javascript"></script>
-<?php
-}
-/** END - ADD LESS TO WORDPRESS  **/
-
 /**
  * Widget
  */
